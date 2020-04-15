@@ -4,8 +4,8 @@ Guía del curso Análisis Geoespacial con scripts para el manejo de sensores rem
 ## **CONTENIDO**
 ### [CLASES](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/CLASES)
 ### [GUIAS](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Guias)
-####[QGIS](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/QGIS)
-####[Spyder](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Spyder)
-###  2.1 [Gdal](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Spyder/Gdal)
-###  2.2 [Rasterio](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Spyder/Rasterio)
-###  2.3 [GEE](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Spyder/GEE)
+#### [QGIS](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Guias/QGIS)
+#### [Spyder](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Spyder)
+####  [Gdal](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Spyder/Gdal)
+####  [Rasterio](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Spyder/Rasterio)
+####  [GEE](https://github.com/edieraristizabal/AnalisisGeoespacial/tree/master/Spyder/GEE)
