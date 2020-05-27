@@ -1,0 +1,1218 @@
+%###########################PRESENTACION##########################################
+%Modo presentación
+\documentclass[14pt]{beamer}
+
+%Modo handout
+%\documentclass[handout,compress]{beamer}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[border shrink=1mm]
+
+\usepackage{graphicx}
+\usepackage{beamerthemeCambridgeUS}
+\usepackage{subfig}
+\usepackage{tikz}
+\usepackage{amsmath}
+\setbeamercovered{transparent}
+
+\title[GIS]{ANÁLISIS GEOESPACIAL}
+\author[Edier Aristizábal]{Edier V. Aristizábal G.}
+\institute{\emph{evaristizabalg@unal.edu.co}}
+\date{(Versión:\today)}
+\usepackage{textpos} 
+
+\addtobeamertemplate{headline}{}{%
+	\begin{textblock*}{2mm}(.9\textwidth,0cm)
+	\hfill\includegraphics[height=1cm]{G:/Mi Unidad/ADMINISTRATIVA/logos/logo3.png}  
+	\end{textblock*}
+			}
+%############################INICIO#############################################
+\begin{document}
+\begin{frame}
+\titlepage
+\centering
+	\includegraphics[width=5cm]{G:/Mi Unidad/ADMINISTRATIVA/logos/unal.png}\hspace*{4.75cm}~%
+   	\includegraphics[width=2cm]{G:/Mi Unidad/INVESTIGACION/GRUPOS DE INVESTIGACION/GEOHAZARDS/logo2} 
+\end{frame}
+ %#############################SLIDE
+\begin{frame}\frametitle{Sistemas de Información Geográfica}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/gis.jpg}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+
+%###############################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/table.jpg}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+
+%################################SLIDE
+\begin{frame}\frametitle{Evolución de GIS}
+\begin{figure}
+\includegraphics[width=4cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/colera}\hfill\includegraphics[width=2cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/map}\hfill\includegraphics[width=2cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/webgi}
+\end{figure}
+	\begin{columns}
+		\begin{column}{.48\linewidth}
+			\begin{figure}
+				\includegraphics[width=2cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/snow}\\
+			\end{figure}
+\scriptsize{In 1854\, cholera hit the city of London, England. No one knew where the disease started. So, British physician \emph{John Snow} started mapping the outbreak. But he also mapped out roads, property boundaries and water lines.}
+		\end{column}
+		\begin{column}{.48\linewidth}
+			\begin{figure}
+				\includegraphics[width=2cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/tomlinson}\\
+			\end{figure}
+\scriptsize{In 1968, \emph{Roger Tomlinson} coined the term “GIS” in his paper “A Geographic Information System for Regional Planning“. In 2014, Roger Tomlinson later passed away and will always be remembered as the \emph{father of GIS}.}
+		\end{column}
+	\end{columns}
+\end{frame}
+%###############################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/historia}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Elipsoide}
+\framesubtitle{WGS84}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/elipsoide}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Geoide}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/geoide}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Elupsoide \& Geoide}
+\framesubtitle{Datum geodésico}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/geoide2}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Coordenadas Geográficas}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/coordenadas}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Proyección a Coordenadas Planas}
+\framesubtitle{\emph{You can’t represent Earth’s surface in two dimensions without distortion}}
+\scriptsize{Similarly, a map projection is a method by which cartographers translates a sphere or globe into a two-dimensional representation. In other words, a map projection systematically renders a 3D ellipsoid (or spheroid) of Earth to a 2D map surface. Because you can’t display 3D surfaces perfectly in two dimensions, distortions always occur. For example, map projections distort distance, direction, scale and area.}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/projec}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Proyección Cartográfica}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/project2}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Proyección Cartográfica}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/sisproj}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{UTM}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/utm}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Spatial Reference System dentifier (SRID)}
+\scriptsize{Un SRID, Identificador de Referencia Espacial, es un identificador estándar único que hace referencia a un Sistema de Coordenadas concreto. Cada código, por tanto, se asocia de forma exclusiva a un Sistema de Coordenadas.}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/epsg}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Componentes de un SIG}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/component}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Componentes de un SIG}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[width=10cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/component2}
+    %\caption{This is the caption.}
+   \end{figure}
+\begin{columns}
+		\begin{column}{.33\linewidth}
+		 \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/component3}
+		\end{column}
+		\begin{column}{.33\linewidth}
+			 \includegraphics[height=.2\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/component4}
+		\end{column}
+		\begin{column}{.33\linewidth}
+			 \includegraphics[height=.3\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/component5}
+		\end{column}
+	\end{columns}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Spatial Reference System dentifier (SRID)}
+\scriptsize{Geospatial data is data about objects, events, or phenomena that have a location on the surface of the earth, including location information (usually coordinates on the earth), attribute information (the characteristics of the object, event, or phenomena concerned), and often also temporal information (the time or life span at which the location and attributes exist).}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/vector}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/data}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/type}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/data2}
+    \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/data3}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster}
+  \begin{columns}
+		\begin{column}{.33\linewidth}
+		 \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/celda}
+		\end{column}
+		\begin{column}{.33\linewidth}
+			 \includegraphics[height=.45\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/rast2}
+		\end{column}
+		\begin{column}{.33\linewidth}
+			 \includegraphics[height=.5\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/rast3}
+		\end{column}
+	\end{columns}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster Continuos}
+\scriptsize{Continuous rasters (non-discrete) are grid cells with gradual changing data such as elevation, temperature or an aerial photograph. A continuous raster surface can be derived from a fixed registration point. For example, digital elevation models use sea level as a registration point. Each cell represents a value above or below sea level.}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/conraster}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster Discretos}
+\scriptsize{Discrete rasters have distinct themes or categories. For example, one grid cell represents a land cover class or a soil type.In a discrete raster land cover/use map, you can distinguish each thematic class. Each class can be discretely defined where it begins and ends. In other words, each land cover cell is definable and it fills the entire area of the cell.Discrete data usually consists of integers to represent classes.}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/disraster}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/data2}
+    \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/data3}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{vector}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/shape}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Vector}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/json}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Vector}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/kml}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/raster}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/tiff}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/bil}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/ecw}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/dwg}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/xyz}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Raster}
+%\framesubtitle{}
+%\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/nfc}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Tratamiento de imágenes de satélite}
+%\framesubtitle{}
+\scriptsize{Existen una gran cantidad de procedimientos para el análisis de imágenes de satélite. En este curso nos concentraremos en 3 de ellas:}
+\begin{itemize}
+\item Pro-procesamiento de imágenes
+\item Mejoramiento de imágenes
+\item Transformaciones de imágenes
+\item Clasificación de imágenes.
+\end{itemize}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.4\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/band}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+%\framesubtitle{}
+\scriptsize{Cualquier imagen adquirida por un sensor remoto presenta una serie de alteraciones radiométricas y geométricas debidas a factores como:}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/correciones}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/calibracion}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Striping}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/striping}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Line Drop}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/linedrop}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Bit Error}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/biterror}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/toa2}
+     \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Corrección \& Calibración}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/calibracion2}
+     \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/toa}
+     \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/toa2}
+     \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/nd}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Conversión a Radiancia espectral TOA}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/convertoa}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Conversión a Reflectividad TOA}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/converrefli}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/boa}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Radiación Termal}
+\scriptsize{La Temperatura cinética es la manifestación interna de la energía traslacional promedio de la moléculas que componen un cuerpo (temperatura cinética). Como consecuencia  los objetos irradian energía en función de su temperatura (Temperatura radiante), adicionalmente esta temperatura sensada es de los primeros 50 cm, puede no ser representativa de todo el objeto.\\
+La región del espectro entre 8 a 14 um es de particular interés  por que corresponden con la temperatura de la mayoría de elementos de la superficie terrestre (300K $>$ 9,7 um).\\
+Sin embargo debido a la diferencia de emisividad que tienen los objetos, un cuerpo puede tener la misma temperatura y aun así tener diferente radiancia. Solo los cuerpo negros presentan que la Trad \= Tcin, para los demas cuerpos la temperatura radiante siempre es menor, ya que la emisividad es menor que 1.}
+\begin{figure}
+    \centering
+    \includegraphics[height=.3\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/termal}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Conversión a T de brillo }
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/brillo}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Ortorectificación}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/proyeorto}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/ortoejemplo}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/referen}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \subfloat[Directa]{\includegraphics[width=5cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/interp1}}\qquad
+    \subfloat[Interpolación bilineal]{\includegraphics[width=4cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/interp2}}
+    \label{fig:1}
+  \end{figure}
+  \begin{figure}
+    \centering
+    \subfloat[Interpolación cúbica]{\includegraphics[width=3cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/interp3}}\qquad    
+    \subfloat[Vecino mas Cercano]{\includegraphics[width=3cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/interp4}}
+    \label{fig:2}
+  \end{figure}
+\end{frame}
+%############################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/orto2}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/interp5}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\scriptsize{}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/orto}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Análisis Hidrológico}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/hidro}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{DTM}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[width=3cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/dem3}
+    %\caption{This is the caption.}
+   \end{figure}
+\begin{columns}
+		\begin{column}{.49\linewidth}
+		 \includegraphics[width=3cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/dem2}
+		\end{column}
+		\begin{column}{.49\linewidth}
+			 \includegraphics[width=6cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/dem1}
+		\end{column}
+	\end{columns}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{DTM}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/rast1}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{DEM vs. DTM}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.5\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/dtm}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{DTM}
+%\framesubtitle{}
+\begin{columns}
+		\begin{column}{.30\linewidth}
+		 \includegraphics[width=4cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/dtm3}
+		\end{column}
+		\begin{column}{.70\linewidth}
+			 \includegraphics[width=8cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/dtm2}
+		\end{column}
+	\end{columns}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/dtm5}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/dtm6}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Geomorfometría}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/geomor}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/indices}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/indice1}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/indice3}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.9\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/indice4}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Pendiente}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.9\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/pend}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/curv}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+%\framesubtitle{}
+\begin{columns}
+		\begin{column}{.50\linewidth}
+		 \includegraphics[width=6cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/curv1}
+		\end{column}
+		\begin{column}{.50\linewidth}
+			 \includegraphics[width=6cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/curv2}
+		\end{column}
+	\end{columns}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/profile}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/indicestabla}
+    %\caption{This is the caption.}
+  \end{figure}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/melton}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{Fuente: Wilford et al. (2004)}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/long}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/hack}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.82\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/hipsom}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/hips2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.85\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/hipso3}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/tect}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/tect2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/hist}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/hist2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/strech}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/strech2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/highlowpass}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/filtros}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.5\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/filtrodir}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/filtrodir2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/filtro2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/cociente}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/ihs}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/compo}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/compo2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/compcocientes}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/cap2}
+     \includegraphics[height=.2\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/cap3}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.7\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/cap}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/ihs2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/pc}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/cova}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/number}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/modelo}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/modelo2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/metodos}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/metodos2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/kmeans}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/kamnes2}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/asignacion}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.65\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/training}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/featurespace}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/divergencia}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{DTM}
+%\framesubtitle{}
+  \begin{figure}
+    \centering
+    \includegraphics[width=3cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/imagen}
+    %\caption{This is the caption.}
+   \end{figure}
+\begin{columns}
+		\begin{column}{.49\linewidth}
+		 \includegraphics[width=4cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/imagen2}
+		\end{column}
+		\begin{column}{.49\linewidth}
+			 \includegraphics[width=4cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/imagen3}
+		\end{column}
+	\end{columns}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/precision}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Matriz de Confusión}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/confu}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Matriz de Contingencia}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.8\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/matrizconti}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Coeficiente de Cohen Kappa}
+
+\begin{columns}
+		\begin{column}{.49\linewidth}
+		 \includegraphics[width=5cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/cohen}
+		\end{column}
+		\begin{column}{.49\linewidth}
+			 \includegraphics[width=6cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/cohen2}
+		\end{column}
+	\end{columns}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+\frametitle{Matriz de Contingencia}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.5\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/kappa}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%################################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/kappaejemplo}
+  \includegraphics[height=.3\textheight]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/kappaejemplo2}
+  \end{figure}
+\tiny{}
+\end{frame}
+%###########################SLIDE
+\begin{frame}
+  \begin{figure}
+    \centering
+    \includegraphics[height=.6\textheight]{G:/Mi unidad/CATEDRA/PRESENTACIONES/fig/gracias}
+    %\caption{This is the caption.}
+  \end{figure}
+\tiny{}
+\end{frame}
+%##############################SLIDE########################################### 
+ 
+\end{document}
