@@ -1,0 +1,3899 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.14)  30 JUN 2020 15:12
+entering extended mode
+**./QGIS.tex
+(QGIS.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15>
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamer.cls"
+Document Class: beamer 2020/05/06 v3.58 A class for typesetting presentations
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasemo
+des.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.s
+ty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count167
+)
+\beamer@tempbox=\box45
+\beamer@tempcount=\count168
+\c@beamerpauses=\count169
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasede
+code.sty"
+\beamer@slideinframe=\count170
+\beamer@minimum=\count171
+\beamer@decode@box=\box46
+)
+\beamer@commentbox=\box47
+\beamer@modecount=\count172
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifpdf.sty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\headdp=\dimen134
+\footheight=\dimen135
+\sidebarheight=\dimen136
+\beamer@tempdim=\dimen137
+\beamer@finalheight=\dimen138
+\beamer@animht=\dimen139
+\beamer@animdp=\dimen140
+\beamer@animwd=\dimen141
+\beamer@leftmargin=\dimen142
+\beamer@rightmargin=\dimen143
+\beamer@leftsidebar=\dimen144
+\beamer@rightsidebar=\dimen145
+\beamer@boxsize=\dimen146
+\beamer@vboxoffset=\dimen147
+\beamer@descdefault=\dimen148
+\beamer@descriptionwidth=\dimen149
+\beamer@lastskip=\skip47
+\beamer@areabox=\box48
+\beamer@animcurrent=\box49
+\beamer@animshowbox=\box50
+\beamer@sectionbox=\box51
+\beamer@logobox=\box52
+\beamer@linebox=\box53
+\beamer@sectioncount=\count173
+\beamer@subsubsectionmax=\count174
+\beamer@subsectionmax=\count175
+\beamer@sectionmax=\count176
+\beamer@totalheads=\count177
+\beamer@headcounter=\count178
+\beamer@partstartpage=\count179
+\beamer@sectionstartpage=\count180
+\beamer@subsectionstartpage=\count181
+\beamer@animationtempa=\count182
+\beamer@animationtempb=\count183
+\beamer@xpos=\count184
+\beamer@ypos=\count185
+\beamer@ypos@offset=\count186
+\beamer@showpartnumber=\count187
+\beamer@currentsubsection=\count188
+\beamer@coveringdepth=\count189
+\beamer@sectionadjust=\count190
+\beamer@tocsectionnumber=\count191
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseop
+tions.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
+ty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks16
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
+fg"))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\size14.clo
+"
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfc
+ore.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+ty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
+ty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
+cs.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgf
+sys.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrc
+s.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-common.tex"
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-common-lists.tex"))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+util-latex.def"
+\pgfutil@abb=\box54
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+rcs.code.tex"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision.
+tex")
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys.code.tex"
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keys.code.tex"
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count195
+\c@pgf@countb=\count196
+\c@pgf@countc=\count197
+\c@pgf@countd=\count198
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count199
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gf.cfg"
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count266
+\pgfsyssoftpath@bigbuffer@items=\count267
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\p
+gfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color.
+cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcore.code.tex"
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathc
+alc.code.tex"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathu
+til.code.tex")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathp
+arser.code.tex"
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count268
+\pgfmath@box=\box55
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.code.tex"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.basic.code.tex")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.trigonometric.code.tex")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.random.code.tex")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.comparison.code.tex")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.base.code.tex")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.round.code.tex")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.misc.code.tex")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+unctions.integerarithmetics.code.tex")))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathf
+loat.code.tex"
+\c@pgfmathroundto@lastzeros=\count269
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.c
+ode.tex")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count270
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen191
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen195
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count271
+\pgf@shadingcount=\count272
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box59
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pg
+fcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\xxcol
+or.sty"
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count273
+\XC@countmixins=\count274
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegshi
+.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infware
+rr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.s
+ty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.s
+ty"
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcm
+ds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetke
+ys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\kvde
+finekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pdfesca
+pe.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor.sty
+"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\letltxm
+acro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty
+"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoptions
+.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen197
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def
+"
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\intcalc.s
+ty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etexcmds
+.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count277
+Package hyperref Info: Option `bookmarks' set `true' on input line 4338.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4338.
+Package hyperref Info: Option `implicit' set `false' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count278
+ ("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen198
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.sty
+"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\bigint
+calc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count279
+\Field@Width=\dimen199
+\Fld@charsize=\dimen256
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+\Hy@abspage=\count280
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.de
+f"
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atveryend
+.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\reru
+nfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter\uni
+quecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasere
+quires.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseco
+mpatibility.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasefo
+nt.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.st
+y"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.s
+ty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks27
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathaccent\sans
+mathaccent.sty"
+Package: sansmathaccent 2020/01/31
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfil
+e.sty"
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
+)))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasetr
+anslator.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translat
+or.sty"
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasemi
+sc.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasetw
+oscreens.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseov
+erlay.sty"
+\beamer@argscount=\count283
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count284
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseti
+tle.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasese
+ction.sty"
+\c@lecture=\count285
+\c@part=\count286
+\c@section=\count287
+\c@subsection=\count288
+\c@subsubsection=\count289
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasefr
+ame.sty"
+\beamer@framebox=\box60
+\beamer@frametitlebox=\box61
+\beamer@zoombox=\box62
+\beamer@zoomcount=\count290
+\beamer@zoomframecount=\count291
+\beamer@frametextheight=\dimen257
+\c@subsectionslide=\count292
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks28
+\framewidth=\dimen258
+\c@framenumber=\count293
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseve
+rbatim.sty"
+\beamer@verbatimfileout=\write4
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasefr
+amesize.sty"
+\beamer@splitbox=\box63
+\beamer@autobreakcount=\count294
+\beamer@autobreaklastheight=\dimen259
+\beamer@frametitletoks=\toks29
+\beamer@framesubtitletoks=\toks30
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasefr
+amecomponents.sty"
+\beamer@footins=\box64
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseco
+lor.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseno
+tes.sty"
+\beamer@frameboxcopy=\box65
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseto
+c.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasete
+mplates.sty"
+\beamer@sbttoks=\toks31
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseau
+xtemplates.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasebo
+xes.sty"
+\bmb@box=\box66
+\bmb@colorbox=\box67
+\bmb@boxshadow=\box68
+\bmb@boxshadowball=\box69
+\bmb@boxshadowballlarge=\box70
+\bmb@temp=\dimen260
+\bmb@dima=\dimen261
+\bmb@dimb=\dimen262
+\bmb@prevheight=\dimen263
+)
+\beamer@blockheadheight=\dimen264
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaselo
+calstructure.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.sty
+"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks32
+)
+\c@figure=\count295
+\c@table=\count296
+\abovecaptionskip=\skip55
+\belowcaptionskip=\skip56
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasena
+vigation.sty"
+\beamer@section@min@dim=\dimen265
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseth
+eorems.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
+"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen266
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen267
+) ("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count297
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count298
+\leftroot@=\count299
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count300
+\DOTSCASE@=\count301
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box71
+\strutbox@=\box72
+\big@size=\dimen268
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count302
+\c@MaxMatrixCols=\count303
+\dotsspace@=\muskip17
+\c@parentequation=\count304
+\dspbrk@lvl=\count305
+\tag@help=\toks34
+\row@=\count306
+\column@=\count307
+\maxfields@=\count308
+\andhelp@=\toks35
+\eqnshift@=\dimen269
+\alignsep@=\dimen270
+\tagshift@=\dimen271
+\tagwidth@=\dimen272
+\totwidth@=\dimen273
+\lineht@=\dimen274
+\@envbody=\toks36
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip60
+\thm@postskip=\skip61
+\thm@headsep=\skip62
+\dth@everypar=\toks43
+)
+\c@theorem=\count309
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseth
+emes.sty"))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerthemed
+efault.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerfontth
+emedefault.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamercolort
+hemedefault.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerinnert
+hemedefault.sty"
+\beamer@dima=\dimen275
+\beamer@dimb=\dimen276
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beameroutert
+hemedefault.sty")))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pstricks\pstricks.s
+ty"
+Package: pstricks 2020/06/11 v0.70 LaTeX wrapper for `PSTricks' (RN,HV)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\pst-xkey.
+tex"
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty
+"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.t
+ex"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.
+tex"
+\XKV@toks=\toks44
+\XKV@tempa@toks=\toks45
+)
+\XKV@depth=\count310
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pstricks\pstricks
+.tex"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pstricks\pst-fp.t
+ex" `pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count311
+\pstFP@xia=\count312
+\pstFP@xib=\count313
+\pstFP@xfa=\count314
+\pstFP@xfb=\count315
+\pstFP@rega=\count316
+\pstFP@regb=\count317
+\pstFP@regs=\count318
+\pstFP@times=\count319
+)
+\psLoopIndex=\count320
+
+`PSTricks' v2.97  <2019/05/11> (tvz,hv)
+\pst@dima=\dimen277
+\pst@dimb=\dimen278
+\pst@dimc=\dimen279
+\pst@dimd=\dimen280
+\pst@dimg=\dimen281
+\pst@dimh=\dimen282
+\pst@dimm=\dimen283
+\pst@dimn=\dimen284
+\pst@dimo=\dimen285
+\pst@dimp=\dimen286
+\pst@hbox=\box73
+\pst@ibox=\box74
+\pst@boxg=\box75
+\pst@cnta=\count321
+\pst@cntb=\count322
+\pst@cntc=\count323
+\pst@cntd=\count324
+\pst@cntg=\count325
+\pst@cnth=\count326
+\pst@cntm=\count327
+\pst@cntn=\count328
+\pst@cnto=\count329
+\pst@cntp=\count330
+\@zero=\count331
+\pst@toks=\toks46
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pstricks\pstricks
+.con")
+\psunit=\dimen287
+\psxunit=\dimen288
+\psyunit=\dimen289
+\pst@C@@rType=\count332
+\pslinewidth=\dimen290
+\psk@startLW=\dimen291
+\psk@endLW=\dimen292
+\pst@customdefs=\toks47
+\pslinearc=\dimen293
+\pst@symbolStep=\dimen294
+\pst@symbolWidth=\dimen295
+\pst@symbolLinewidth=\dimen296
+\everypsbox=\toks48
+\psframesep=\dimen297
+\pslabelsep=\dimen298
+\sh@wgridXunit=\dimen299
+\sh@wgridYunit=\dimen300
+\pst@shift=\dimen301
+)
+File: pstricks.tex 2019/05/11 v2.97 `PSTricks' (tvz,hv)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pstricks\pst-fp.t
+ex")
+File: pst-fp.tex 2019/05/11 v2.97 `PST-fp' (hv)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerthemeC
+ambridgeUS.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerinnert
+hemerounded.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beameroutert
+hemeinfolines.sty")
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamercolort
+hemebeaver.sty"))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.sty
+"
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.st
+y"
+Package: caption3 2020/05/30 v1.12 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen302
+\captionmargin@=\dimen303
+\captionwidth=\dimen304
+\caption@tempdima=\dimen305
+\caption@indent=\dimen306
+\caption@parindent=\dimen307
+\caption@hangindent=\dimen308
+Package caption Info: beamer document class detected.
+)
+\c@caption@flags=\count333
+\c@continuedfloat=\count334
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+\c@KVtest=\count335
+\sf@farskip=\skip63
+\sf@captopadj=\dimen309
+\sf@capskip=\skip64
+\sf@nearskip=\skip65
+\c@subfigure=\count336
+\c@subfigure@save=\count337
+\c@depth=\count338
+\c@subtable=\count339
+\c@subtable@save=\count340
+\sf@top=\skip66
+\sf@bottom=\skip67
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\t
+ikz.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.
+sty"
+Loading pgf.sty
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+duleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box76
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+duleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
+gfcomp-version-0-65.sty"
+Loading pgfcomp-version-0-65.sty
+\pgf@nodesepstart=\dimen310
+\pgf@nodesepend=\dimen311
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\p
+gfcomp-version-1-18.sty"
+Loading pgfcomp-version-1-18.sty
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgffo
+r.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfke
+ys.sty"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+keys.code.tex"))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.st
+y"
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex"))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgf
+for.code.tex"
+Loading pgffor.code.tex
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.
+code.tex")
+\pgffor@iter=\dimen312
+\pgffor@skip=\dimen313
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz\tikz.code.tex"
+Loading tikz.code.tex
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgf
+libraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count341
+\pgfplotmarksize=\dimen314
+)
+\tikz@lastx=\dimen315
+\tikz@lasty=\dimen316
+\tikz@lastxsaved=\dimen317
+\tikz@lastysaved=\dimen318
+\tikz@lastmovetox=\dimen319
+\tikz@lastmovetoy=\dimen320
+\tikzleveldistance=\dimen321
+\tikzsiblingdistance=\dimen322
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count342
+\tikznumberofchildren=\count343
+\tikznumberofcurrentchild=\count344
+\tikz@fig@count=\count345
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmo
+dulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count346
+\pgfmatrixcurrentcolumn=\count347
+\pgf@matrix@numberofcolumns=\count348
+)
+\tikz@expandcount=\count349
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/textpos\textpos.sty
+"
+Package: textpos 2019/04/15 v1.9.1
+
+Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
+\TP@textbox=\box81
+\TPHorizModule=\dimen323
+\TPVertModule=\dimen324
+\TP@margin=\dimen325
+\TP@absmargin=\dimen326
+Grid set 16 x 16 = 22.7622pt x 17.07166pt
+\TPboxrulesize=\dimen327
+\TP@tbargs=\toks51
+\TP@prevdepth=\dimen328
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend
+-pdfmode.def"
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count350
+\l__pdf_internal_box=\box82
+) (QGIS.aux)
+\openout1 = `QGIS.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(14.09984pt, 335.99568pt, 14.09984pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=335.99568pt
+* \textheight=244.6939pt
+* \oddsidemargin=-58.17015pt
+* \evensidemargin=-58.17015pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=14.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count351
+\scratchdimen=\dimen329
+\scratchbox=\box83
+\nofMPsegments=\count352
+\nofMParguments=\count353
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen330
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
+\everyMPtoPDFconversion=\toks53
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstop
+df-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+) ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box84
+Package hyperref Info: Link coloring OFF on input line 32.
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
+y"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcount.s
+ty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\ge
+ttitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count357
+)
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
+ (QGIS.out) (QGIS.out)
+\@outlinefile=\write5
+\openout5 = `QGIS.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 32.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 32.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 32.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 32.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 32.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
+2.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
+2.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 32.
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translat
+or-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translat
+or-bibliography-dictionary-English.dict"
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translat
+or-environment-dictionary-English.dict"
+Dictionary: translator-environment-dictionary, Language: English 
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translat
+or-months-dictionary-English.dict"
+Dictionary: translator-months-dictionary, Language: English 
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translat
+or-numbers-dictionary-English.dict"
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\translat
+or-theorem-dictionary-English.dict"
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (QGIS.nav)
+<G:/My Drive/FIGURAS/un.png, id=13, 401.5pt x 401.5pt>
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 32.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) in paragraph at lines 32--32
+[]  
+ []
+
+<G:/My Drive/FIGURAS/unal.png, id=21, 309.155pt x 147.55125pt>
+File: G:/My Drive/FIGURAS/unal.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/unal.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/unal.png  used on input line 38.
+(pdftex.def)             Requested size: 142.26378pt x 67.9014pt.
+<G:/My Drive/FIGURAS/logo3.jpg, id=22, 581.0508pt x 650.6709pt>
+File: G:/My Drive/FIGURAS/logo3.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/logo3.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/logo3.jpg  used on input line 38.
+(pdftex.def)             Requested size: 56.9055pt x 63.72063pt.
+
+Overfull \hbox (1.45749pt too wide) in paragraph at lines 38--38
+ [][]|  [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 38.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+{C:/Users/dell/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <G:/My Drive/
+FIGURAS/un.png> <G:/My Drive/FIGURAS/unal.png> <G:/My Drive/FIGURAS/logo3.jpg>]
+<G:/My Drive/FIGURAS/gis.jpg, id=57, 831.105pt x 478.03593pt>
+File: G:/My Drive/FIGURAS/gis.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/gis.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/gis.jpg  used on input line 48.
+(pdftex.def)             Requested size: 303.53468pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 48.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[2
+
+ <G:/My Drive/FIGURAS/gis.jpg>]
+<G:/My Drive/FIGURAS/colera.png, id=85, 263.48438pt x 114.4275pt>
+File: G:/My Drive/FIGURAS/colera.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/colera.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/colera.png  used on input line 77.
+
+(pdftex.def)             Requested size: 113.81102pt x 49.42635pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 77.
+
+("C:\Users\dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathaccent\ot1m
+athkerncmss.fd"
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<G:/My Drive/FIGURAS/webgi.png, id=86, 112.92188pt x 112.92188pt>
+File: G:/My Drive/FIGURAS/webgi.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/webgi.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/webgi.png  used on input line 77.
+(pdftex.def)             Requested size: 56.9055pt x 56.90706pt.
+<G:/My Drive/FIGURAS/snow.png, id=87, 465.23813pt x 435.12563pt>
+File: G:/My Drive/FIGURAS/snow.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/snow.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/snow.png  used on input line 77.
+(pdftex.def)             Requested size: 56.9055pt x 53.22202pt.
+<G:/My Drive/FIGURAS/tomlinson.png, id=88, 161.85469pt x 161.85469pt>
+File: G:/My Drive/FIGURAS/tomlinson.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/tomlinson.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/tomlinson.png  used on input line 
+77.
+(pdftex.def)             Requested size: 56.9055pt x 56.90436pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 77.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[3
+
+ <G:/My Drive/FIGURAS/colera.png> <G:/My Drive/FIGURAS/webgi.png> <G:/My Drive/
+FIGURAS/snow.png> <G:/My Drive/FIGURAS/tomlinson.png>]
+<G:/My Drive/FIGURAS/historia.jpg, id=119, 714.5569pt x 445.83464pt>
+File: G:/My Drive/FIGURAS/historia.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/historia.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/historia.jpg  used on input line 8
+5.
+(pdftex.def)             Requested size: 279.8209pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 85.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[4
+
+ <G:/My Drive/FIGURAS/historia.jpg>]
+<G:/My Drive/FIGURAS/component2.png, id=146, 621.82312pt x 219.06844pt>
+File: G:/My Drive/FIGURAS/component2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/component2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/component2.png  used on input line
+ 106.
+(pdftex.def)             Requested size: 284.52756pt x 100.23785pt.
+<G:/My Drive/FIGURAS/component3.png, id=147, 306.39468pt x 316.93407pt>
+File: G:/My Drive/FIGURAS/component3.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/component3.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/component3.png  used on input line
+ 106.
+(pdftex.def)             Requested size: 96.4447pt x 99.76382pt.
+<G:/My Drive/FIGURAS/component4.jpg, id=148, 414.04688pt x 245.41687pt>
+File: G:/My Drive/FIGURAS/component4.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/component4.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/component4.jpg  used on input line
+ 106.
+(pdftex.def)             Requested size: 84.1536pt x 49.88191pt.
+<G:/My Drive/FIGURAS/component5.png, id=149, 319.94531pt x 182.18062pt>
+File: G:/My Drive/FIGURAS/component5.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/component5.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/component5.png  used on input line
+ 106.
+(pdftex.def)             Requested size: 131.40298pt x 74.82477pt.
+
+Overfull \hbox (20.5238pt too wide) in paragraph at lines 106--106
+[][]  
+ []
+
+
+Overfull \vbox (10.82834pt too high) detected at line 106
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 106.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[5
+
+ <G:/My Drive/FIGURAS/component2.png> <G:/My Drive/FIGURAS/component3.png> <G:/
+My Drive/FIGURAS/component4.jpg> <G:/My Drive/FIGURAS/component5.png>]
+<G:/My Drive/FIGURAS/web.png, id=180, 376.40625pt x 249.93375pt>
+File: G:/My Drive/FIGURAS/web.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/web.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/web.png  used on input line 115.
+(pdftex.def)             Requested size: 300.51085pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 115.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[6
+
+ <G:/My Drive/FIGURAS/web.png (PNG copy)>]
+<G:/My Drive/FIGURAS/Softwarelogos2.png, id=207, 1879.02pt x 1536.74126pt>
+File: G:/My Drive/FIGURAS/Softwarelogos2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/Softwarelogos2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/Softwarelogos2.png  used on input 
+line 124.
+(pdftex.def)             Requested size: 243.96579pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 124.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[7
+
+ <G:/My Drive/FIGURAS/Softwarelogos2.png>]
+<G:/My Drive/FIGURAS/android.jpg, id=236, 1167.61218pt x 722.7pt>
+File: G:/My Drive/FIGURAS/android.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/android.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/android.jpg  used on input line 13
+3.
+(pdftex.def)             Requested size: 322.36821pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 133.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[8
+
+ <G:/My Drive/FIGURAS/android.jpg>]
+<G:/My Drive/FIGURAS/component.png, id=263, 634.62094pt x 447.17062pt>
+File: G:/My Drive/FIGURAS/component.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/component.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/component.png  used on input line 
+143.
+(pdftex.def)             Requested size: 247.78198pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 143.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[9
+
+ <G:/My Drive/FIGURAS/component.png>]
+<G:/My Drive/FIGURAS/table.jpg, id=291, 578.16pt x 457.71pt>
+File: G:/My Drive/FIGURAS/table.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/table.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/table.jpg  used on input line 152.
+
+(pdftex.def)             Requested size: 220.53235pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 152.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[10
+
+ <G:/My Drive/FIGURAS/table.jpg>]
+<G:/My Drive/FIGURAS/vector.jpg, id=318, 315.42844pt x 348.55219pt>
+File: G:/My Drive/FIGURAS/vector.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/vector.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/vector.jpg  used on input line 163
+.
+(pdftex.def)             Requested size: 157.99779pt x 174.58861pt.
+
+Overfull \vbox (11.41527pt too high) detected at line 163
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 163.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[11
+
+ <G:/My Drive/FIGURAS/vector.jpg>]
+<G:/My Drive/FIGURAS/gis_data_models.png, id=345, 1003.75pt x 687.56876pt>
+File: G:/My Drive/FIGURAS/gis_data_models.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/gis_data_models.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/gis_data_models.png  used on input
+ line 172.
+(pdftex.def)             Requested size: 254.8731pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 172.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[12
+
+ <G:/My Drive/FIGURAS/gis_data_models.png>]
+<G:/My Drive/FIGURAS/data.png, id=375, 471.26062pt x 429.10312pt>
+File: G:/My Drive/FIGURAS/data.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/data.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/data.png  used on input line 181.
+(pdftex.def)             Requested size: 191.74397pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 181.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[13
+
+ <G:/My Drive/FIGURAS/data.png>]
+<G:/My Drive/FIGURAS/type.jpg, id=404, 587.19376pt x 276.28218pt>
+File: G:/My Drive/FIGURAS/type.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/type.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/type.jpg  used on input line 190.
+(pdftex.def)             Requested size: 318.05653pt x 149.64955pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 190.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[14
+
+ <G:/My Drive/FIGURAS/type.jpg>]
+<G:/My Drive/FIGURAS/vector_data.png, id=431, 444.66125pt x 393.47pt>
+File: G:/My Drive/FIGURAS/vector_data.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/vector_data.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/vector_data.png  used on input lin
+e 199.
+(pdftex.def)             Requested size: 211.39268pt x 187.06004pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 199.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[15
+
+ <G:/My Drive/FIGURAS/vector_data.png>]
+<G:/My Drive/FIGURAS/data2.png, id=460, 722.7pt x 225.84375pt>
+File: G:/My Drive/FIGURAS/data2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/data2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/data2.png  used on input line 208.
+
+(pdftex.def)             Requested size: 319.24611pt x 99.76382pt.
+<G:/My Drive/FIGURAS/data3.jpg, id=461, 722.7pt x 272.01625pt>
+File: G:/My Drive/FIGURAS/data3.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/data3.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/data3.jpg  used on input line 208.
+
+(pdftex.def)             Requested size: 265.05698pt x 99.76382pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 208.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[16
+
+ <G:/My Drive/FIGURAS/data2.png> <G:/My Drive/FIGURAS/data3.jpg>]
+<G:/My Drive/FIGURAS/celda.png, id=489, 429.54845pt x 344.04591pt>
+File: G:/My Drive/FIGURAS/celda.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/celda.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/celda.png  used on input line 224.
+
+(pdftex.def)             Requested size: 124.5593pt x 99.76382pt.
+
+Overfull \hbox (13.68011pt too wide) in paragraph at lines 224--224
+[][]  
+ []
+
+<G:/My Drive/FIGURAS/rast2.png, id=490, 257.5255pt x 232.07831pt>
+File: G:/My Drive/FIGURAS/rast2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/rast2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/rast2.png  used on input line 224.
+
+(pdftex.def)             Requested size: 124.54211pt x 112.23526pt.
+
+Overfull \hbox (13.66293pt too wide) in paragraph at lines 224--224
+[][]  
+ []
+
+<G:/My Drive/FIGURAS/rast3.png, id=491, 217.82788pt x 241.23929pt>
+File: G:/My Drive/FIGURAS/rast3.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/rast3.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/rast3.png  used on input line 224.
+
+(pdftex.def)             Requested size: 112.60306pt x 124.7067pt.
+
+Overfull \hbox (1.72388pt too wide) in paragraph at lines 224--224
+[][]  
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 224.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[17
+
+ <G:/My Drive/FIGURAS/celda.png> <G:/My Drive/FIGURAS/rast2.png> <G:/My Drive/F
+IGURAS/rast3.png>]
+<G:/My Drive/FIGURAS/conraster.png, id=521, 579.66562pt x 183.68625pt>
+File: G:/My Drive/FIGURAS/conraster.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/conraster.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/conraster.png  used on input line 
+235.
+(pdftex.def)             Requested size: 314.83684pt x 99.76382pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 235.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[18
+
+ <G:/My Drive/FIGURAS/conraster.png>]
+<G:/My Drive/FIGURAS/disraster.png, id=549, 509.65407pt x 168.63pt>
+File: G:/My Drive/FIGURAS/disraster.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/disraster.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/disraster.png  used on input line 
+246.
+(pdftex.def)             Requested size: 301.52539pt x 99.76382pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 246.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[19
+
+ <G:/My Drive/FIGURAS/disraster.png>]
+<G:/My Drive/FIGURAS/shape.png, id=578, 655.69969pt x 374.14781pt>
+File: G:/My Drive/FIGURAS/shape.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/shape.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/shape.png  used on input line 257.
+
+(pdftex.def)             Requested size: 305.96776pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 257.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[20
+
+ <G:/My Drive/FIGURAS/shape.png>]
+<G:/My Drive/FIGURAS/json.png, id=606, 691.08188pt x 438.13687pt>
+File: G:/My Drive/FIGURAS/json.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/json.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/json.png  used on input line 268.
+(pdftex.def)             Requested size: 275.3839pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 268.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[21
+
+ <G:/My Drive/FIGURAS/json.png>]
+<G:/My Drive/FIGURAS/kml.png, id=634, 679.03688pt x 416.30531pt>
+File: G:/My Drive/FIGURAS/kml.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/kml.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/kml.png  used on input line 279.
+(pdftex.def)             Requested size: 284.76872pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 279.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[22
+
+ <G:/My Drive/FIGURAS/kml.png>]
+<G:/My Drive/FIGURAS/raster.png, id=662, 659.46375pt x 414.04688pt>
+File: G:/My Drive/FIGURAS/raster.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/raster.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/raster.png  used on input line 290
+.
+(pdftex.def)             Requested size: 278.07976pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 290.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[23
+
+ <G:/My Drive/FIGURAS/raster.png>]
+<G:/My Drive/FIGURAS/tiff.png, id=690, 682.80093pt x 318.43968pt>
+File: G:/My Drive/FIGURAS/tiff.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/tiff.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/tiff.png  used on input line 301.
+(pdftex.def)             Requested size: 374.35394pt x 174.58861pt.
+
+Overfull \hbox (38.35826pt too wide) in paragraph at lines 301--301
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 301.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[24
+
+ <G:/My Drive/FIGURAS/tiff.png>]
+<G:/My Drive/FIGURAS/bil.png, id=718, 704.6325pt x 412.54124pt>
+File: G:/My Drive/FIGURAS/bil.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/bil.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/bil.png  used on input line 312.
+(pdftex.def)             Requested size: 298.20152pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 312.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[25
+
+ <G:/My Drive/FIGURAS/bil.png>]
+<G:/My Drive/FIGURAS/ecw.png, id=747, 703.87968pt x 302.63063pt>
+File: G:/My Drive/FIGURAS/ecw.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/ecw.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/ecw.png  used on input line 323.
+(pdftex.def)             Requested size: 348.06172pt x 149.64955pt.
+
+Overfull \hbox (12.06604pt too wide) in paragraph at lines 323--323
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 323.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[26
+
+ <G:/My Drive/FIGURAS/ecw.png>]
+<G:/My Drive/FIGURAS/dwg.png, id=775, 704.6325pt x 359.84438pt>
+File: G:/My Drive/FIGURAS/dwg.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/dwg.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/dwg.png  used on input line 334.
+(pdftex.def)             Requested size: 341.88614pt x 174.58861pt.
+
+Overfull \hbox (5.89046pt too wide) in paragraph at lines 334--334
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 334.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[27
+
+ <G:/My Drive/FIGURAS/dwg.png>]
+<G:/My Drive/FIGURAS/xyz.png, id=803, 708.39656pt x 184.43906pt>
+File: G:/My Drive/FIGURAS/xyz.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/xyz.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/xyz.png  used on input line 345.
+(pdftex.def)             Requested size: 383.16618pt x 99.76382pt.
+
+Overfull \hbox (47.1705pt too wide) in paragraph at lines 345--345
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 345.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[28
+
+ <G:/My Drive/FIGURAS/xyz.png>]
+<G:/My Drive/FIGURAS/nfc.png, id=831, 666.23906pt x 413.29407pt>
+File: G:/My Drive/FIGURAS/nfc.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/nfc.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/nfc.png  used on input line 356.
+(pdftex.def)             Requested size: 281.44505pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 356.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[29
+
+ <G:/My Drive/FIGURAS/nfc.png>]
+<G:/My Drive/FIGURAS/earth.jpg, id=859, 903.375pt x 441.65pt>
+File: G:/My Drive/FIGURAS/earth.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/earth.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/earth.jpg  used on input line 365.
+
+(pdftex.def)             Requested size: 357.1118pt x 174.58861pt.
+
+Overfull \hbox (21.11612pt too wide) in paragraph at lines 365--365
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 365.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[30
+
+ <G:/My Drive/FIGURAS/earth.jpg>]
+<G:/My Drive/FIGURAS/geoide.png, id=887, 372.54677pt x 315.54507pt>
+File: G:/My Drive/FIGURAS/geoide.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/geoide.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/geoide.png  used on input line 374
+.
+(pdftex.def)             Requested size: 206.1349pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 374.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[31
+
+ <G:/My Drive/FIGURAS/geoide.png>]
+<G:/My Drive/FIGURAS/elipsoide.png, id=916, 513.01521pt x 260.57915pt>
+File: G:/My Drive/FIGURAS/elipsoide.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/elipsoide.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/elipsoide.png  used on input line 
+384.
+(pdftex.def)             Requested size: 343.71841pt x 174.58861pt.
+
+Overfull \hbox (7.72273pt too wide) in paragraph at lines 384--384
+ [] 
+ []
+
+
+Overfull \vbox (1.41527pt too high) detected at line 384
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 384.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[32
+
+ <G:/My Drive/FIGURAS/elipsoide.png>]
+<G:/My Drive/FIGURAS/geoide2.png, id=944, 545.5876pt x 232.07831pt>
+File: G:/My Drive/FIGURAS/geoide2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/geoide2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/geoide2.png  used on input line 39
+4.
+(pdftex.def)             Requested size: 351.83055pt x 149.64955pt.
+
+Overfull \hbox (15.83487pt too wide) in paragraph at lines 394--394
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 394.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[33
+
+ <G:/My Drive/FIGURAS/geoide2.png>]
+<G:/My Drive/FIGURAS/coordenadas.png, id=972, 517.18219pt x 386.19281pt>
+File: G:/My Drive/FIGURAS/coordenadas.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/coordenadas.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/coordenadas.png  used on input lin
+e 404.
+(pdftex.def)             Requested size: 233.80309pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 404.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[34
+
+ <G:/My Drive/FIGURAS/coordenadas.png>]
+<G:/My Drive/FIGURAS/projec.png, id=1000, 316.18124pt x 316.18124pt>
+File: G:/My Drive/FIGURAS/projec.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/projec.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/projec.png  used on input line 415
+.
+(pdftex.def)             Requested size: 149.65211pt x 149.64955pt.
+
+Overfull \vbox (8.00398pt too high) detected at line 415
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 415.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[35
+
+ <G:/My Drive/FIGURAS/projec.png>]
+<G:/My Drive/FIGURAS/proy.png, id=1028, 398.99063pt x 471.26062pt>
+File: G:/My Drive/FIGURAS/proy.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/proy.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/proy.png  used on input line 425.
+(pdftex.def)             Requested size: 168.93256pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 425.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[36
+
+ <G:/My Drive/FIGURAS/proy.png>]
+<G:/My Drive/FIGURAS/cilindrica.png, id=1056, 516.42938pt x 428.35031pt>
+File: G:/My Drive/FIGURAS/cilindrica.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/cilindrica.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/cilindrica.png  used on input line
+ 435.
+(pdftex.def)             Requested size: 240.5627pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 435.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[37
+
+ <G:/My Drive/FIGURAS/cilindrica.png>]
+<G:/My Drive/FIGURAS/conical.png, id=1085, 582.67688pt x 329.73187pt>
+File: G:/My Drive/FIGURAS/conical.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/conical.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/conical.png  used on input line 44
+5.
+(pdftex.def)             Requested size: 352.60507pt x 199.53146pt.
+
+Overfull \hbox (16.60939pt too wide) in paragraph at lines 445--445
+ [] 
+ []
+
+
+Overfull \vbox (13.35812pt too high) detected at line 445
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 445.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[38
+
+ <G:/My Drive/FIGURAS/conical.png>]
+<G:/My Drive/FIGURAS/Planar.png, id=1113, 417.81094pt x 405.76593pt>
+File: G:/My Drive/FIGURAS/Planar.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/Planar.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/Planar.png  used on input line 455
+.
+(pdftex.def)             Requested size: 205.45593pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 455.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[39
+
+ <G:/My Drive/FIGURAS/Planar.png>]
+<G:/My Drive/FIGURAS/proye.png, id=1141, 713.66624pt x 477.28313pt>
+File: G:/My Drive/FIGURAS/proye.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/proye.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/proye.png  used on input line 465.
+
+(pdftex.def)             Requested size: 261.04683pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 465.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[40
+
+ <G:/My Drive/FIGURAS/proye.png>]
+<G:/My Drive/FIGURAS/utm.png, id=1169, 963.6pt x 481.8pt>
+File: G:/My Drive/FIGURAS/utm.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/utm.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/utm.png  used on input line 475.
+(pdftex.def)             Requested size: 349.17476pt x 174.58861pt.
+
+Overfull \hbox (13.17908pt too wide) in paragraph at lines 475--475
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 475.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[41
+
+ <G:/My Drive/FIGURAS/utm.png>]
+<G:/My Drive/FIGURAS/gauss.png, id=1197, 666.99188pt x 432.86719pt>
+File: G:/My Drive/FIGURAS/gauss.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/gauss.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/gauss.png  used on input line 485.
+
+(pdftex.def)             Requested size: 307.45099pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 485.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[42
+
+ <G:/My Drive/FIGURAS/gauss.png>]
+<G:/My Drive/FIGURAS/gauss2.png, id=1225, 737.75626pt x 435.87843pt>
+File: G:/My Drive/FIGURAS/gauss2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/gauss2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/gauss2.png  used on input line 495
+.
+(pdftex.def)             Requested size: 295.50253pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 495.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[43
+
+ <G:/My Drive/FIGURAS/gauss2.png>]
+<G:/My Drive/FIGURAS/epsg.png, id=1254, 587.19376pt x 425.33907pt>
+File: G:/My Drive/FIGURAS/epsg.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/epsg.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/epsg.png  used on input line 507.
+(pdftex.def)             Requested size: 206.59607pt x 149.64955pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 507.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[44
+
+ <G:/My Drive/FIGURAS/epsg.png>]
+<G:/My Drive/FIGURAS/truesize.png, id=1283, 1005.7575pt x 404.26031pt>
+File: G:/My Drive/FIGURAS/truesize.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/truesize.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/truesize.png  used on input line 5
+17.
+(pdftex.def)             Requested size: 496.4166pt x 199.53146pt.
+
+Overfull \hbox (160.42091pt too wide) in paragraph at lines 517--517
+ [] 
+ []
+
+
+Overfull \vbox (23.35812pt too high) detected at line 517
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 517.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[45
+
+ <G:/My Drive/FIGURAS/truesize.png>]
+<G:/My Drive/FIGURAS/dsm2.png, id=1313, 1906.12125pt x 964.60374pt>
+File: G:/My Drive/FIGURAS/dsm2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/dsm2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/dsm2.png  used on input line 528.
+(pdftex.def)             Requested size: 343.08702pt x 173.62119pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 528.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[46
+
+ <G:/My Drive/FIGURAS/dsm2.png (PNG copy)>]
+<G:/My Drive/FIGURAS/dtm3.png, id=1340, 225.84375pt x 146.79843pt>
+File: G:/My Drive/FIGURAS/dtm3.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/dtm3.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/dtm3.png  used on input line 541.
+(pdftex.def)             Requested size: 113.81102pt x 73.97917pt.
+
+Overfull \hbox (13.01129pt too wide) in paragraph at lines 541--541
+[][]  
+ []
+
+<G:/My Drive/FIGURAS/dtm2.jpg, id=1341, 439.6425pt x 270.00874pt>
+File: G:/My Drive/FIGURAS/dtm2.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/dtm2.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/dtm2.jpg  used on input line 541.
+(pdftex.def)             Requested size: 227.62204pt x 139.79146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 541.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[47
+
+ <G:/My Drive/FIGURAS/dtm3.png> <G:/My Drive/FIGURAS/dtm2.jpg>]
+<G:/My Drive/FIGURAS/dtm.png, id=1369, 722.7pt x 275.52937pt>
+File: G:/My Drive/FIGURAS/dtm.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/dtm.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/dtm.png  used on input line 550.
+(pdftex.def)             Requested size: 327.09769pt x 124.7067pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 550.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[48
+
+ <G:/My Drive/FIGURAS/dtm.png>]
+<G:/My Drive/FIGURAS/dsm.png, id=1397, 2055.68pt x 836.12375pt>
+File: G:/My Drive/FIGURAS/dsm.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/dsm.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/dsm.png  used on input line 559.
+(pdftex.def)             Requested size: 306.58214pt x 124.7067pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 559.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[49
+
+ <G:/My Drive/FIGURAS/dsm.png>]
+<G:/My Drive/FIGURAS/dem3.png, id=1426, 148.61154pt x 139.45056pt>
+File: G:/My Drive/FIGURAS/dem3.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/dem3.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/dem3.png  used on input line 577.
+(pdftex.def)             Requested size: 56.9055pt x 53.39818pt.
+<G:/My Drive/FIGURAS/tin.jpg, id=1427, 599.99156pt x 710.655pt>
+File: G:/My Drive/FIGURAS/tin.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/tin.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/tin.jpg  used on input line 577.
+(pdftex.def)             Requested size: 113.81102pt x 134.79813pt.
+<G:/My Drive/FIGURAS/rast1.jpg, id=1428, 319.68848pt x 336.69318pt>
+File: G:/My Drive/FIGURAS/rast1.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/rast1.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/rast1.jpg  used on input line 577.
+
+(pdftex.def)             Requested size: 113.81102pt x 119.86342pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 577.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[50
+
+ <G:/My Drive/FIGURAS/dem3.png> <G:/My Drive/FIGURAS/tin.jpg> <G:/My Drive/FIGU
+RAS/rast1.jpg>]
+<G:/My Drive/FIGURAS/dtm5.png, id=1456, 626.08643pt x 423.73042pt>
+File: G:/My Drive/FIGURAS/dtm5.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/dtm5.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/dtm5.png  used on input line 585.
+(pdftex.def)             Requested size: 294.8243pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 585.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[51
+
+ <G:/My Drive/FIGURAS/dtm5.png>]
+<G:/My Drive/FIGURAS/dtm6.png, id=1484, 603.26431pt x 426.01263pt>
+File: G:/My Drive/FIGURAS/dtm6.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/dtm6.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/dtm6.png  used on input line 593.
+(pdftex.def)             Requested size: 282.54932pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 593.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[52
+
+ <G:/My Drive/FIGURAS/dtm6.png>]
+<G:/My Drive/FIGURAS/geomor.png, id=1512, 460.08507pt x 404.10127pt>
+File: G:/My Drive/FIGURAS/geomor.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/geomor.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/geomor.png  used on input line 602
+.
+(pdftex.def)             Requested size: 198.77344pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 602.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[53
+
+ <G:/My Drive/FIGURAS/geomor.png>]
+<G:/My Drive/FIGURAS/indices.png, id=1540, 627.01859pt x 541.51605pt>
+File: G:/My Drive/FIGURAS/indices.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/indices.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/indices.png  used on input line 61
+0.
+(pdftex.def)             Requested size: 231.03648pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 610.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[54
+
+ <G:/My Drive/FIGURAS/indices.png>]
+<G:/My Drive/FIGURAS/indice1.png, id=1568, 645.34056pt x 435.65578pt>
+File: G:/My Drive/FIGURAS/indice1.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/indice1.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/indice1.png  used on input line 61
+8.
+(pdftex.def)             Requested size: 295.57028pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 618.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[55
+
+ <G:/My Drive/FIGURAS/indice1.png>]
+<G:/My Drive/FIGURAS/indice3.png, id=1597, 649.41211pt x 354.2248pt>
+File: G:/My Drive/FIGURAS/indice3.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/indice3.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/indice3.png  used on input line 62
+6.
+(pdftex.def)             Requested size: 320.07765pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 626.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[56
+
+ <G:/My Drive/FIGURAS/indice3.png>]
+<G:/My Drive/FIGURAS/indice4.png, id=1625, 638.21535pt x 486.55014pt>
+File: G:/My Drive/FIGURAS/indice4.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/indice4.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/indice4.png  used on input line 63
+4.
+(pdftex.def)             Requested size: 294.43959pt x 224.47052pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 634.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[57
+
+ <G:/My Drive/FIGURAS/indice4.png>]
+<G:/My Drive/FIGURAS/pend.png, id=1653, 690.12761pt x 541.51605pt>
+File: G:/My Drive/FIGURAS/pend.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/pend.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/pend.png  used on input line 643.
+(pdftex.def)             Requested size: 286.07117pt x 224.47052pt.
+
+Overfull \vbox (21.29718pt too high) detected at line 643
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 643.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[58
+
+ <G:/My Drive/FIGURAS/pend.png>]
+<G:/My Drive/FIGURAS/curv.png, id=1681, 722.7pt x 352.18901pt>
+File: G:/My Drive/FIGURAS/curv.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/curv.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/curv.png  used on input line 652.
+(pdftex.def)             Requested size: 358.25038pt x 174.58861pt.
+
+Overfull \hbox (22.2547pt too wide) in paragraph at lines 652--652
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 652.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[59
+
+ <G:/My Drive/FIGURAS/curv.png>]
+<G:/My Drive/FIGURAS/curv1.png, id=1709, 318.59874pt x 332.84915pt>
+File: G:/My Drive/FIGURAS/curv1.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/curv1.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/curv1.png  used on input line 664.
+
+(pdftex.def)             Requested size: 170.71652pt x 178.3544pt.
+
+Overfull \hbox (2.71869pt too wide) in paragraph at lines 664--664
+[][]  
+ []
+
+<G:/My Drive/FIGURAS/curv2.png, id=1710, 380.68987pt x 373.56465pt>
+File: G:/My Drive/FIGURAS/curv2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/curv2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/curv2.png  used on input line 664.
+
+(pdftex.def)             Requested size: 170.71652pt x 167.52112pt.
+
+Overfull \hbox (2.71869pt too wide) in paragraph at lines 664--664
+[][]  
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 664.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[60
+
+ <G:/My Drive/FIGURAS/curv1.png> <G:/My Drive/FIGURAS/curv2.png>]
+<G:/My Drive/FIGURAS/profile.png, id=1739, 844.65562pt x 425.33907pt>
+File: G:/My Drive/FIGURAS/profile.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/profile.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/profile.png  used on input line 67
+3.
+(pdftex.def)             Requested size: 346.71059pt x 174.58861pt.
+
+Overfull \hbox (10.7149pt too wide) in paragraph at lines 673--673
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 673.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[61
+
+ <G:/My Drive/FIGURAS/profile.png>]
+<G:/My Drive/FIGURAS/indicestabla.png, id=1768, 635.0124pt x 482.7636pt>
+File: G:/My Drive/FIGURAS/indicestabla.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/indicestabla.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/indicestabla.png  used on input li
+ne 682.
+(pdftex.def)             Requested size: 262.45938pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 682.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[62
+
+ <G:/My Drive/FIGURAS/indicestabla.png>]
+<G:/My Drive/FIGURAS/melton.png, id=1796, 475.35338pt x 358.29634pt>
+File: G:/My Drive/FIGURAS/melton.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/melton.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/melton.png  used on input line 691
+.
+(pdftex.def)             Requested size: 264.72365pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 691.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[63
+
+ <G:/My Drive/FIGURAS/melton.png>]
+<G:/My Drive/FIGURAS/long.png, id=1824, 686.565pt x 298.86656pt>
+File: G:/My Drive/FIGURAS/long.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/long.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/long.png  used on input line 701.
+(pdftex.def)             Requested size: 343.78452pt x 149.64955pt.
+
+Overfull \hbox (7.78883pt too wide) in paragraph at lines 701--701
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 701.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[64
+
+ <G:/My Drive/FIGURAS/long.png>]
+<G:/My Drive/FIGURAS/hack.png, id=1852, 380.17032pt x 507.39563pt>
+File: G:/My Drive/FIGURAS/hack.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/hack.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/hack.png  used on input line 710.
+(pdftex.def)             Requested size: 130.81084pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 710.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[65
+
+ <G:/My Drive/FIGURAS/hack.png>]
+<G:/My Drive/FIGURAS/hipsom.png, id=1880, 722.7pt x 459.96844pt>
+File: G:/My Drive/FIGURAS/hipsom.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/hipsom.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/hipsom.png  used on input line 720
+.
+(pdftex.def)             Requested size: 321.34134pt x 204.5208pt.
+
+Overfull \vbox (1.34746pt too high) detected at line 720
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 720.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[66
+
+ <G:/My Drive/FIGURAS/hipsom.png>]
+<G:/My Drive/FIGURAS/tect.png, id=1908, 293.59688pt x 262.73157pt>
+File: G:/My Drive/FIGURAS/tect.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/tect.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/tect.png  used on input line 730.
+(pdftex.def)             Requested size: 222.97913pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 730.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[67
+
+ <G:/My Drive/FIGURAS/tect.png>]
+<G:/My Drive/FIGURAS/tect2.png, id=1937, 417.81094pt x 390.70969pt>
+File: G:/My Drive/FIGURAS/tect2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/tect2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/tect2.png  used on input line 739.
+
+(pdftex.def)             Requested size: 213.37402pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 739.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[68
+
+ <G:/My Drive/FIGURAS/tect2.png>]
+<G:/My Drive/FIGURAS/hidro.png, id=1965, 451.94197pt x 541.51605pt>
+File: G:/My Drive/FIGURAS/hidro.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/hidro.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/hidro.png  used on input line 748.
+
+(pdftex.def)             Requested size: 166.5263pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 748.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[69
+
+ <G:/My Drive/FIGURAS/hidro.png>]
+<G:/My Drive/FIGURAS/band.png, id=1995, 555.76648pt x 190.34492pt>
+File: G:/My Drive/FIGURAS/band.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/band.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/band.png  used on input line 765.
+(pdftex.def)             Requested size: 291.28992pt x 99.76382pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 765.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[70
+
+ <G:/My Drive/FIGURAS/band.png>]
+<G:/My Drive/FIGURAS/correciones.png, id=2023, 627.01859pt x 366.43944pt>
+File: G:/My Drive/FIGURAS/correciones.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/correciones.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/correciones.png  used on input lin
+e 775.
+(pdftex.def)             Requested size: 298.73627pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 775.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[71
+
+ <G:/My Drive/FIGURAS/correciones.png>]
+<G:/My Drive/FIGURAS/calibracion.png, id=2051, 700.11563pt x 452.4403pt>
+File: G:/My Drive/FIGURAS/calibracion.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/calibracion.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/calibracion.png  used on input lin
+e 784.
+(pdftex.def)             Requested size: 308.7569pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 784.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[72
+
+ <G:/My Drive/FIGURAS/calibracion.png>]
+<G:/My Drive/FIGURAS/striping.png, id=2079, 714.5569pt x 371.52887pt>
+File: G:/My Drive/FIGURAS/striping.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/striping.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/striping.png  used on input line 7
+94.
+(pdftex.def)             Requested size: 335.78728pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 794.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[73
+
+ <G:/My Drive/FIGURAS/striping.png>]
+<G:/My Drive/FIGURAS/linedrop.png, id=2108, 706.4138pt x 375.60042pt>
+File: G:/My Drive/FIGURAS/linedrop.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/linedrop.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/linedrop.png  used on input line 8
+04.
+(pdftex.def)             Requested size: 328.36046pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 804.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[74
+
+ <G:/My Drive/FIGURAS/linedrop.png>]
+<G:/My Drive/FIGURAS/biterror.png, id=2136, 706.4138pt x 326.74184pt>
+File: G:/My Drive/FIGURAS/biterror.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/biterror.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/biterror.png  used on input line 8
+14.
+(pdftex.def)             Requested size: 323.54224pt x 149.64955pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 814.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[75
+
+ <G:/My Drive/FIGURAS/biterror.png>]
+<G:/My Drive/FIGURAS/toa.jpg, id=2164, 727.96968pt x 484.05844pt>
+File: G:/My Drive/FIGURAS/toa.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/toa.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/toa.jpg  used on input line 822.
+(pdftex.def)             Requested size: 262.55763pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 822.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[76
+
+ <G:/My Drive/FIGURAS/toa.jpg>]
+<G:/My Drive/FIGURAS/calibracion2.png, id=2191, 664.884pt x 441.22737pt>
+File: G:/My Drive/FIGURAS/calibracion2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/calibracion2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/calibracion2.png  used on input li
+ne 831.
+(pdftex.def)             Requested size: 263.08792pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 831.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[77
+
+ <G:/My Drive/FIGURAS/calibracion2.png>]
+<G:/My Drive/FIGURAS/toa2.png, id=2219, 826.5245pt x 494.69324pt>
+File: G:/My Drive/FIGURAS/toa2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/toa2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/toa2.png  used on input line 839.
+(pdftex.def)             Requested size: 291.69675pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 839.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[78
+
+ <G:/My Drive/FIGURAS/toa2.png>]
+<G:/My Drive/FIGURAS/convertoa.png, id=2247, 944.328pt x 435.0654pt>
+File: G:/My Drive/FIGURAS/convertoa.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/convertoa.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/convertoa.png  used on input line 
+849.
+(pdftex.def)             Requested size: 324.81367pt x 149.64955pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 849.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[79
+
+ <G:/My Drive/FIGURAS/convertoa.png>]
+<G:/My Drive/FIGURAS/converrefli.png, id=2276, 788.7066pt x 522.2712pt>
+File: G:/My Drive/FIGURAS/converrefli.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/converrefli.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/converrefli.png  used on input lin
+e 859.
+(pdftex.def)             Requested size: 301.32426pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 859.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[80
+
+ <G:/My Drive/FIGURAS/converrefli.png>]
+<G:/My Drive/FIGURAS/boa.png, id=2304, 295.18732pt x 491.63957pt>
+File: G:/My Drive/FIGURAS/boa.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/boa.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/boa.png  used on input line 868.
+(pdftex.def)             Requested size: 119.80244pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 868.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[81
+
+ <G:/My Drive/FIGURAS/boa.png>]
+<G:/My Drive/FIGURAS/termal.png, id=2332, 548.64127pt x 192.3807pt>
+File: G:/My Drive/FIGURAS/termal.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/termal.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/termal.png  used on input line 879
+.
+(pdftex.def)             Requested size: 213.39159pt x 74.82477pt.
+
+Overfull \vbox (27.98474pt too high) detected at line 879
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 879.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[82
+
+ <G:/My Drive/FIGURAS/termal.png>]
+<G:/My Drive/FIGURAS/brillo.png, id=2360, 954.4458pt x 444.2196pt>
+File: G:/My Drive/FIGURAS/brillo.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/brillo.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/brillo.png  used on input line 888
+.
+(pdftex.def)             Requested size: 321.53629pt x 149.64955pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 888.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[83
+
+ <G:/My Drive/FIGURAS/brillo.png>]
+<G:/My Drive/FIGURAS/proyeorto.png, id=2388, 536.75531pt x 459.96844pt>
+File: G:/My Drive/FIGURAS/proyeorto.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/proyeorto.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/proyeorto.png  used on input line 
+898.
+(pdftex.def)             Requested size: 232.84782pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 898.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[84
+
+ <G:/My Drive/FIGURAS/proyeorto.png>]
+<G:/My Drive/FIGURAS/ortoejemplo.png, id=2416, 582.67688pt x 394.47375pt>
+File: G:/My Drive/FIGURAS/ortoejemplo.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/ortoejemplo.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/ortoejemplo.png  used on input lin
+e 907.
+(pdftex.def)             Requested size: 294.72516pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 907.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[85
+
+ <G:/My Drive/FIGURAS/ortoejemplo.png>]
+<G:/My Drive/FIGURAS/referen.jpg, id=2445, 439.8834pt x 288.1164pt>
+File: G:/My Drive/FIGURAS/referen.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/referen.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/referen.jpg  used on input line 91
+6.
+(pdftex.def)             Requested size: 304.6408pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 916.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[86
+
+ <G:/My Drive/FIGURAS/referen.jpg>]
+<G:/My Drive/FIGURAS/interp1.png, id=2472, 297.2231pt x 165.91563pt>
+File: G:/My Drive/FIGURAS/interp1.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/interp1.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/interp1.png  used on input line 93
+1.
+(pdftex.def)             Requested size: 142.26378pt x 79.41327pt.
+<G:/My Drive/FIGURAS/interp2.png, id=2473, 208.6669pt x 162.86197pt>
+File: G:/My Drive/FIGURAS/interp2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/interp2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/interp2.png  used on input line 93
+1.
+(pdftex.def)             Requested size: 113.81102pt x 88.82883pt.
+<G:/My Drive/FIGURAS/interp3.png, id=2474, 219.86366pt x 192.3807pt>
+File: G:/My Drive/FIGURAS/interp3.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/interp3.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/interp3.png  used on input line 93
+1.
+(pdftex.def)             Requested size: 85.35826pt x 74.68764pt.
+<G:/My Drive/FIGURAS/interp4.png, id=2475, 210.70268pt x 179.14816pt>
+File: G:/My Drive/FIGURAS/interp4.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/interp4.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/interp4.png  used on input line 93
+1.
+(pdftex.def)             Requested size: 85.35826pt x 72.57646pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 931.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[87
+
+ <G:/My Drive/FIGURAS/interp1.png> <G:/My Drive/FIGURAS/interp2.png> <G:/My Dri
+ve/FIGURAS/interp3.png> <G:/My Drive/FIGURAS/interp4.png>]
+<G:/My Drive/FIGURAS/orto2.png, id=2508, 449.9062pt x 334.88493pt>
+File: G:/My Drive/FIGURAS/orto2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/orto2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/orto2.png  used on input line 940.
+
+(pdftex.def)             Requested size: 268.06477pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 940.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[88
+
+ <G:/My Drive/FIGURAS/orto2.png>]
+<G:/My Drive/FIGURAS/interp5.png, id=2536, 413.26225pt x 492.65747pt>
+File: G:/My Drive/FIGURAS/interp5.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/interp5.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/interp5.png  used on input line 94
+9.
+(pdftex.def)             Requested size: 167.37029pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 949.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[89
+
+ <G:/My Drive/FIGURAS/interp5.png>]
+<G:/My Drive/FIGURAS/orto.png, id=2564, 528.28352pt x 436.67366pt>
+File: G:/My Drive/FIGURAS/orto.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/orto.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/orto.png  used on input line 958.
+(pdftex.def)             Requested size: 241.38506pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 958.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[90
+
+ <G:/My Drive/FIGURAS/orto.png>]
+<G:/My Drive/FIGURAS/hist.png, id=2592, 549.65915pt x 477.38916pt>
+File: G:/My Drive/FIGURAS/hist.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/hist.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/hist.png  used on input line 968.
+(pdftex.def)             Requested size: 229.73978pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 968.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[91
+
+ <G:/My Drive/FIGURAS/hist.png>]
+<G:/My Drive/FIGURAS/strech.jpg, id=2621, 627.09282pt x 469.00218pt>
+File: G:/My Drive/FIGURAS/strech.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/strech.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/strech.jpg  used on input line 979
+.
+(pdftex.def)             Requested size: 266.78363pt x 199.53146pt.
+
+Overfull \vbox (9.35812pt too high) detected at line 979
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 979.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[92
+
+ <G:/My Drive/FIGURAS/strech.jpg>]
+<G:/My Drive/FIGURAS/strech2.jpg, id=2648, 627.09282pt x 469.755pt>
+File: G:/My Drive/FIGURAS/strech2.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/strech2.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/strech2.jpg  used on input line 99
+0.
+(pdftex.def)             Requested size: 266.36261pt x 199.53146pt.
+
+Overfull \vbox (9.35812pt too high) detected at line 990
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 990.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[93
+
+ <G:/My Drive/FIGURAS/strech2.jpg>]
+<G:/My Drive/FIGURAS/hist2.png, id=2675, 859.09691pt x 482.47859pt>
+File: G:/My Drive/FIGURAS/hist2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/hist2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/hist2.png  used on input line 999.
+
+(pdftex.def)             Requested size: 355.28635pt x 199.53146pt.
+
+Overfull \hbox (19.29066pt too wide) in paragraph at lines 999--999
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 999.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[94
+
+ <G:/My Drive/FIGURAS/hist2.png>]
+<G:/My Drive/FIGURAS/filtros.png, id=2703, 722.7pt x 494.69324pt>
+File: G:/My Drive/FIGURAS/filtros.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/filtros.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/filtros.png  used on input line 10
+09.
+(pdftex.def)             Requested size: 291.4899pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1009.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[95
+
+ <G:/My Drive/FIGURAS/filtros.png>]
+<G:/My Drive/FIGURAS/highlowpass.png, id=2731, 557.80225pt x 364.40366pt>
+File: G:/My Drive/FIGURAS/highlowpass.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/highlowpass.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/highlowpass.png  used on input lin
+e 1018.
+(pdftex.def)             Requested size: 305.43036pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1018.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[96
+
+ <G:/My Drive/FIGURAS/highlowpass.png>]
+<G:/My Drive/FIGURAS/filtrodir.png, id=2759, 649.41211pt x 231.06042pt>
+File: G:/My Drive/FIGURAS/filtrodir.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/filtrodir.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/filtrodir.png  used on input line 
+1027.
+(pdftex.def)             Requested size: 350.49895pt x 124.7067pt.
+
+Overfull \hbox (14.50327pt too wide) in paragraph at lines 1027--1027
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1027.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[97
+
+ <G:/My Drive/FIGURAS/filtrodir.png>]
+<G:/My Drive/FIGURAS/filtrodir2.png, id=2788, 350.15324pt x 486.55014pt>
+File: G:/My Drive/FIGURAS/filtrodir2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/filtrodir2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/filtrodir2.png  used on input line
+ 1036.
+(pdftex.def)             Requested size: 143.59581pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1036.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[98
+
+ <G:/My Drive/FIGURAS/filtrodir2.png>]
+<G:/My Drive/FIGURAS/filtro2.png, id=2816, 235.13197pt x 203.57747pt>
+File: G:/My Drive/FIGURAS/filtro2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/filtro2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/filtro2.png  used on input line 10
+45.
+(pdftex.def)             Requested size: 230.4744pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1045.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[99
+
+ <G:/My Drive/FIGURAS/filtro2.png>]
+<G:/My Drive/FIGURAS/cociente.png, id=2844, 591.39253pt x 326.74184pt>
+File: G:/My Drive/FIGURAS/cociente.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/cociente.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/cociente.png  used on input line 1
+055.
+(pdftex.def)             Requested size: 361.14597pt x 199.53146pt.
+
+Overfull \hbox (25.15028pt too wide) in paragraph at lines 1055--1055
+ [] 
+ []
+
+
+Overfull \vbox (13.35812pt too high) detected at line 1055
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1055.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[100
+
+ <G:/My Drive/FIGURAS/cociente.png>]
+<G:/My Drive/FIGURAS/ihs.png, id=2872, 360.3864pt x 237.0456pt>
+File: G:/My Drive/FIGURAS/ihs.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/ihs.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/ihs.png  used on input line 1065.
+(pdftex.def)             Requested size: 303.36589pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1065.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[101
+
+ <G:/My Drive/FIGURAS/ihs.png>]
+<G:/My Drive/FIGURAS/compo.png, id=2900, 717.882pt x 423.5022pt>
+File: G:/My Drive/FIGURAS/compo.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/compo.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/compo.png  used on input line 1074
+.
+(pdftex.def)             Requested size: 338.22614pt x 199.53146pt.
+
+Overfull \hbox (2.23045pt too wide) in paragraph at lines 1074--1074
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1074.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[102
+
+ <G:/My Drive/FIGURAS/compo.png>]
+<G:/My Drive/FIGURAS/compo2.png, id=2928, 634.0488pt x 415.3116pt>
+File: G:/My Drive/FIGURAS/compo2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/compo2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/compo2.png  used on input line 108
+3.
+(pdftex.def)             Requested size: 304.6302pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1083.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[103
+
+ <G:/My Drive/FIGURAS/compo2.png>]
+<G:/My Drive/FIGURAS/compcocientes.png, id=2957, 470.26395pt x 483.49648pt>
+File: G:/My Drive/FIGURAS/compcocientes.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/compcocientes.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/compcocientes.png  used on input l
+ine 1091.
+(pdftex.def)             Requested size: 194.07237pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1091.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[104
+
+ <G:/My Drive/FIGURAS/compcocientes.png>]
+<G:/My Drive/FIGURAS/number.png, id=2985, 437.69154pt x 426.49478pt>
+File: G:/My Drive/FIGURAS/number.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/number.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/number.png  used on input line 110
+0.
+(pdftex.def)             Requested size: 204.77336pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1100.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[105
+
+ <G:/My Drive/FIGURAS/number.png>]
+<G:/My Drive/FIGURAS/pc.png, id=3013, 763.4155pt x 541.51605pt>
+File: G:/My Drive/FIGURAS/pc.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/pc.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/pc.png  used on input line 1111.
+(pdftex.def)             Requested size: 281.29443pt x 199.53146pt.
+
+Overfull \vbox (9.35812pt too high) detected at line 1111
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1111.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[106
+
+ <G:/My Drive/FIGURAS/pc.png>]
+<G:/My Drive/FIGURAS/cova.png, id=3041, 863.16846pt x 518.10464pt>
+File: G:/My Drive/FIGURAS/cova.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/cova.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/cova.png  used on input line 1120.
+
+(pdftex.def)             Requested size: 332.41966pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1120.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[107
+
+ <G:/My Drive/FIGURAS/cova.png>]
+<G:/My Drive/FIGURAS/cap2.png, id=3069, 417.3338pt x 352.18901pt>
+File: G:/My Drive/FIGURAS/cap2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/cap2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/cap2.png  used on input line 1131.
+
+(pdftex.def)             Requested size: 206.87697pt x 174.58861pt.
+<G:/My Drive/FIGURAS/cap3.png, id=3070, 638.21535pt x 154.71887pt>
+File: G:/My Drive/FIGURAS/cap3.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/cap3.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/cap3.png  used on input line 1131.
+
+(pdftex.def)             Requested size: 205.76201pt x 49.88191pt.
+
+Overfull \vbox (22.29718pt too high) detected at line 1131
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1131.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[108
+
+ <G:/My Drive/FIGURAS/cap2.png> <G:/My Drive/FIGURAS/cap3.png>]
+<G:/My Drive/FIGURAS/cap.png, id=3099, 679.94873pt x 384.76141pt>
+File: G:/My Drive/FIGURAS/cap.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/cap.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/cap.png  used on input line 1140.
+(pdftex.def)             Requested size: 308.53676pt x 174.58861pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1140.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[109
+
+ <G:/My Drive/FIGURAS/cap.png>]
+<G:/My Drive/FIGURAS/ihs2.png, id=3128, 445.83464pt x 411.22649pt>
+File: G:/My Drive/FIGURAS/ihs2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/ihs2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/ihs2.png  used on input line 1150.
+
+(pdftex.def)             Requested size: 216.32477pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1150.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[110
+
+ <G:/My Drive/FIGURAS/ihs2.png>]
+<G:/My Drive/FIGURAS/modelo.png, id=3156, 703.9098pt x 310.2792pt>
+File: G:/My Drive/FIGURAS/modelo.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/modelo.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/modelo.png  used on input line 115
+9.
+(pdftex.def)             Requested size: 339.50548pt x 149.64955pt.
+
+Overfull \hbox (3.5098pt too wide) in paragraph at lines 1159--1159
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1159.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[111
+
+ <G:/My Drive/FIGURAS/modelo.png>]
+<G:/My Drive/FIGURAS/modelo2.png, id=3184, 722.7pt x 499.6266pt>
+File: G:/My Drive/FIGURAS/modelo2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/modelo2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/modelo2.png  used on input line 11
+68.
+(pdftex.def)             Requested size: 288.61171pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1168.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[112
+
+ <G:/My Drive/FIGURAS/modelo2.png>]
+<G:/My Drive/FIGURAS/metodos.png, id=3212, 708.7278pt x 477.9456pt>
+File: G:/My Drive/FIGURAS/metodos.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/metodos.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/metodos.png  used on input line 11
+77.
+(pdftex.def)             Requested size: 295.87927pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1177.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[113
+
+ <G:/My Drive/FIGURAS/metodos.png>]
+<G:/My Drive/FIGURAS/metodos2.png, id=3240, 575.751pt x 468.7914pt>
+File: G:/My Drive/FIGURAS/metodos2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/metodos2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/metodos2.png  used on input line 1
+186.
+(pdftex.def)             Requested size: 245.05553pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1186.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[114
+
+ <G:/My Drive/FIGURAS/metodos2.png>]
+<G:/My Drive/FIGURAS/kmeans.jpg, id=3268, 595.25613pt x 446.05354pt>
+File: G:/My Drive/FIGURAS/kmeans.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/kmeans.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/kmeans.jpg  used on input line 119
+5.
+(pdftex.def)             Requested size: 266.27328pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1195.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[115
+
+ <G:/My Drive/FIGURAS/kmeans.jpg>]
+<G:/My Drive/FIGURAS/kamnes2.png, id=3296, 486.31688pt x 406.51875pt>
+File: G:/My Drive/FIGURAS/kamnes2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/kamnes2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/kamnes2.png  used on input line 12
+04.
+(pdftex.def)             Requested size: 238.69806pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1204.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[116
+
+ <G:/My Drive/FIGURAS/kamnes2.png>]
+<G:/My Drive/FIGURAS/asignacion.jpg, id=3324, 610.87169pt x 279.19041pt>
+File: G:/My Drive/FIGURAS/asignacion.jpg Graphic file (type jpg)
+<use G:/My Drive/FIGURAS/asignacion.jpg>
+Package pdftex.def Info: G:/My Drive/FIGURAS/asignacion.jpg  used on input line
+ 1213.
+(pdftex.def)             Requested size: 327.43298pt x 149.64955pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1213.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[117
+
+ <G:/My Drive/FIGURAS/asignacion.jpg>]
+<G:/My Drive/FIGURAS/training.png, id=3351, 694.19916pt x 333.86703pt>
+File: G:/My Drive/FIGURAS/training.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/training.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/training.png  used on input line 1
+222.
+(pdftex.def)             Requested size: 337.0887pt x 162.11717pt.
+
+Overfull \hbox (1.09302pt too wide) in paragraph at lines 1222--1222
+ [] 
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1222.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[118
+
+ <G:/My Drive/FIGURAS/training.png>]
+<G:/My Drive/FIGURAS/featurespace.png, id=3379, 545.03625pt x 492.33937pt>
+File: G:/My Drive/FIGURAS/featurespace.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/featurespace.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/featurespace.png  used on input li
+ne 1231.
+(pdftex.def)             Requested size: 220.88817pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1231.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[119
+
+ <G:/My Drive/FIGURAS/featurespace.png>]
+<G:/My Drive/FIGURAS/divergencia.png, id=3407, 579.17789pt x 288.06212pt>
+File: G:/My Drive/FIGURAS/divergencia.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/divergencia.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/divergencia.png  used on input lin
+e 1240.
+(pdftex.def)             Requested size: 300.90027pt x 149.64955pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1240.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[120
+
+ <G:/My Drive/FIGURAS/divergencia.png>]
+<G:/My Drive/FIGURAS/imagen.png, id=3435, 238.64156pt x 238.64156pt>
+File: G:/My Drive/FIGURAS/imagen.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/imagen.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/imagen.png  used on input line 125
+8.
+(pdftex.def)             Requested size: 85.35826pt x 85.35739pt.
+<G:/My Drive/FIGURAS/imagen2.png, id=3436, 269.74014pt x 252.43605pt>
+File: G:/My Drive/FIGURAS/imagen2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/imagen2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/imagen2.png  used on input line 12
+58.
+(pdftex.def)             Requested size: 113.81102pt x 106.5116pt.
+<G:/My Drive/FIGURAS/imagen3.png, id=3437, 258.54338pt x 247.34662pt>
+File: G:/My Drive/FIGURAS/imagen3.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/imagen3.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/imagen3.png  used on input line 12
+58.
+(pdftex.def)             Requested size: 113.81102pt x 108.8819pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1258.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[121
+
+ <G:/My Drive/FIGURAS/imagen.png> <G:/My Drive/FIGURAS/imagen2.png> <G:/My Driv
+e/FIGURAS/imagen3.png>]
+<G:/My Drive/FIGURAS/precision.png, id=3468, 305.4612pt x 303.0522pt>
+File: G:/My Drive/FIGURAS/precision.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/precision.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/precision.png  used on input line 
+1267.
+(pdftex.def)             Requested size: 201.12027pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1267.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[122
+
+ <G:/My Drive/FIGURAS/precision.png>]
+<G:/My Drive/FIGURAS/confu.png, id=3496, 268.72226pt x 229.02464pt>
+File: G:/My Drive/FIGURAS/confu.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/confu.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/confu.png  used on input line 1277
+.
+(pdftex.def)             Requested size: 175.59407pt x 149.64955pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1277.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[123
+
+ <G:/My Drive/FIGURAS/confu.png>]
+<G:/My Drive/FIGURAS/matrizconti.png, id=3524, 671.6292pt x 469.2732pt>
+File: G:/My Drive/FIGURAS/matrizconti.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/matrizconti.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/matrizconti.png  used on input lin
+e 1287.
+(pdftex.def)             Requested size: 285.56673pt x 199.53146pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1287.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[124
+
+ <G:/My Drive/FIGURAS/matrizconti.png>]
+<G:/My Drive/FIGURAS/cohen.png, id=3552, 361.35pt x 215.30438pt>
+File: G:/My Drive/FIGURAS/cohen.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/cohen.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/cohen.png  used on input line 1299
+.
+(pdftex.def)             Requested size: 142.26378pt x 84.76668pt.
+<G:/My Drive/FIGURAS/cohen2.png, id=3553, 405.01312pt x 217.5628pt>
+File: G:/My Drive/FIGURAS/cohen2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/cohen2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/cohen2.png  used on input line 129
+9.
+(pdftex.def)             Requested size: 170.71652pt x 91.7044pt.
+
+Overfull \hbox (6.0768pt too wide) in paragraph at lines 1299--1299
+[][]  
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1299.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[125
+
+ <G:/My Drive/FIGURAS/cohen.png> <G:/My Drive/FIGURAS/cohen2.png>]
+<G:/My Drive/FIGURAS/kappa.png, id=3582, 423.83344pt x 186.6975pt>
+File: G:/My Drive/FIGURAS/kappa.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/kappa.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/kappa.png  used on input line 1309
+.
+(pdftex.def)             Requested size: 283.10678pt x 124.7067pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1309.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[126
+
+ <G:/My Drive/FIGURAS/kappa.png>]
+<G:/My Drive/FIGURAS/kappaejemplo.png, id=3610, 397.99394pt x 290.09789pt>
+File: G:/My Drive/FIGURAS/kappaejemplo.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/kappaejemplo.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/kappaejemplo.png  used on input li
+ne 1318.
+(pdftex.def)             Requested size: 205.30621pt x 149.64955pt.
+<G:/My Drive/FIGURAS/kappaejemplo2.png, id=3611, 425.4769pt x 144.54pt>
+File: G:/My Drive/FIGURAS/kappaejemplo2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/kappaejemplo2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/kappaejemplo2.png  used on input l
+ine 1318.
+(pdftex.def)             Requested size: 220.25595pt x 74.82477pt.
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1318.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[127
+
+ <G:/My Drive/FIGURAS/kappaejemplo.png> <G:/My Drive/FIGURAS/kappaejemplo2.png>
+]
+<G:/My Drive/FIGURAS/esri.png, id=3641, 1020.81375pt x 519.44063pt>
+File: G:/My Drive/FIGURAS/esri.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/esri.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/esri.png  used on input line 1327.
+
+(pdftex.def)             Requested size: 343.10011pt x 174.58861pt.
+
+Overfull \hbox (7.10443pt too wide) in paragraph at lines 1327--1327
+ [] 
+ []
+
+
+Overfull \vbox (1.41527pt too high) detected at line 1327
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1327.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[128
+
+ <G:/My Drive/FIGURAS/esri.png>]
+<G:/My Drive/FIGURAS/esri2.png, id=3669, 1199.23032pt x 577.40718pt>
+File: G:/My Drive/FIGURAS/esri2.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/esri2.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/esri2.png  used on input line 1336
+.
+(pdftex.def)             Requested size: 362.60818pt x 174.58861pt.
+
+Overfull \hbox (26.6125pt too wide) in paragraph at lines 1336--1336
+ [] 
+ []
+
+
+Overfull \vbox (1.41527pt too high) detected at line 1336
+ []
+
+File: G:/My Drive/FIGURAS/un.png Graphic file (type png)
+<use G:/My Drive/FIGURAS/un.png>
+Package pdftex.def Info: G:/My Drive/FIGURAS/un.png  used on input line 1336.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (22.7604pt too wide) has occurred while \output is active
+[] [] 
+ []
+
+[129
+
+ <G:/My Drive/FIGURAS/esri2.png>]
+\tf@nav=\write6
+\openout6 = `QGIS.nav'.
+
+\tf@toc=\write7
+\openout7 = `QGIS.toc'.
+
+\tf@snm=\write8
+\openout8 = `QGIS.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1339.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1339.
+ (QGIS.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1339.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1339.
+
+Package rerunfilecheck Info: File `QGIS.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 25587 strings out of 480799
+ 503257 string characters out of 2896251
+ 733466 words of memory out of 3000000
+ 40779 multiletter control sequences out of 15000+200000
+ 547066 words of font info for 77 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 67i,16n,117p,773b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/dell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmss10.pfb><C:/Users/dell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmss12.pfb><C:/Users/dell/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/dell/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/dell/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/dell/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi17.pfb><C:/
+Users/dell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+si8.pfb><C:/Users/dell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb><C:/Users/dell/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmtt8.pfb>
+Output written on QGIS.pdf (129 pages, 31561375 bytes).
+PDF statistics:
+ 3786 PDF objects out of 4296 (max. 8388607)
+ 261 named destinations out of 1000 (max. 500000)
+ 827 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -9,20 +9,23 @@
 
 \usepackage{graphicx}
 \usepackage{beamerthemeCambridgeUS}
+\usepackage{ragged2e}
+\usepackage{multimedia}
 \usepackage{subfig}
 \usepackage{tikz}
 \usepackage{amsmath}
 \setbeamercovered{transparent}
+\usepackage{textpos} 
 
 \title[Introducción]{ANÁLISIS GEOESPACIAL}
 \author[Edier Aristizábal]{Edier V. Aristizábal G.}
 \institute{\emph{evaristizabalg@unal.edu.co}}
 \date{(Versión:\today)}
-\usepackage{textpos} 
+
 
 \addtobeamertemplate{headline}{}{%
 	\begin{textblock*}{2mm}(.9\textwidth,0cm)
-	\hfill\includegraphics[height=1cm]{G:/Mi Unidad/ADMINISTRATIVA/logos/logo3.png}  
+	\hfill\includegraphics[height=1cm]{G:/My Drive/ADMINISTRATIVA/logos/logo3.png}  
 	\end{textblock*}
 			}
 %############################INICIO#############################################
@@ -31,46 +34,82 @@
 \begin{frame}
 \titlepage
 \centering
-	\includegraphics[width=5cm]{G:/Mi Unidad/ADMINISTRATIVA/logos/unal.png}\hspace*{4.75cm}~%
-   	\includegraphics[width=2cm]{G:/Mi Unidad/INVESTIGACION/GRUPOS DE INVESTIGACION/GEOHAZARDS/logo2} 
+	\includegraphics[width=5cm]{G:/My Drive/ADMINISTRATIVA/logos/unal.png}\hspace*{4.75cm}~%
+   	\includegraphics[width=2cm]{G:/My Drive/INVESTIGACION/GRUPOS DE INVESTIGACION/GEOHAZARDS/logo2} 
 \end{frame}
 %#############################SLIDE
 \begin{frame}
 \centering
-	\includegraphics[width=12cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/curso}
+	\includegraphics[width=12cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/curso}
 \end{frame}
 %#############################SLIDE
  \begin{frame}
 \centering
-	\includegraphics[width=12cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/github}
+	\includegraphics[width=12cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/github}
 \end{frame}
  %#############################SLIDE
 \begin{frame}
 \frametitle{Objetivos del curso}
 \framesubtitle{Objetivos y alcances del curso}
-El curso \alert{Análisis Geoespacial} está orientado para estudiantes de posgrados que deseen adquirir conocimientos sobre sensores remotos y datos geoespaciales en un contexto ambiental, utilizando herramientas tipo Sistemas de Información Geográfica (SIG), Google Earth Engine (GEE), Big Data, y programación en lenguaje Python.\vfill
+\justifying
+El curso \alert{Análisis Geoespacial} está orientado para estudiantes de posgrados que deseen formarse como GDS (Geospatial Data Science) adquiriendo conocimientos sobre sensores remotos y datos geoespaciales en un contexto ambiental, utilizando herramientas tipo Sistemas de Información Geográfica (SIG), Google Earth Engine (GEE), QGIS, Big Data, y programación en lenguaje Python.\vfill
 
 El curso es teórico - práctico. Se dictarán clases teóricas con las técnicas y modelos a utilizar, y clases prácticas donde se resolverán dudas con el manejo de las herramientas. El curso se evaluará a través de un trabajo individual durante todo el curso, donde el estudiante implementará en una cuenca de su elección las herramientas de análisis presentadas en el curso.
 \end{frame}
  %#############################SLIDE
 \begin{frame}
+\begin{block}{\emph{Geospatial Data Science}}
+\justifying
+\small{Geospatial data science (GDS) is a subset of Data Science that focuses on the unique characteristics of spatial data, moving beyond simply looking at \textbf{where things happen to understand why they happen there}}.
+\end{block}
 \centering
-	\includegraphics[width=10cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/ven}
+	\includegraphics[width=4.5cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/sds}\vfill
+\tiny{https://carto.com/what-is-spatial-data-science/}
+\end{frame}
+ %#############################SLIDE
+\begin{frame}
+\frametitle{\emph{Geospatial Data Science}}
+\centering
+	\includegraphics[width=6cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/spatialdatascience}\vfill
+	\tiny{https://carto.com/what-is-spatial-data-science/}
+\end{frame}
+ %#############################SLIDE
+\begin{frame}
+\centering
+	\includegraphics[width=8cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/ven}
+\end{frame}
+ %#############################SLIDE
+\begin{frame}
+\centering
+	\includegraphics[width=10cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/temp}\vfill
+\tiny{https://geo-python.github.io/site/lessons/L1/motivation.html}
+\end{frame}
+ %#############################SLIDE
+\begin{frame}
+\centering
+	\includegraphics[width=10cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/temp2}\vfill
+\tiny{Global mean temperature anomalies from 1880-2011. Source: https://www.ncdc.noaa.gov/sotc/global/201113}
+\end{frame}
+ %#############################SLIDE
+\begin{frame}
+\centering
+	\includegraphics[width=10cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/temp3}\vfill
+\tiny{Global temperature anomalies for March 2018. Source: https://www.ncdc.noaa.gov/sotc/global/201803}
 \end{frame}
 %#############################SLIDE
 \begin{frame}
 \centering
-	\includegraphics[width=12cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/progra}
+	\includegraphics[width=12cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/progra}
 \end{frame}
 %#############################SLIDE
 \begin{frame}
 \centering
-	\includegraphics[width=12cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/program2}
+	\includegraphics[width=12cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/program2}
 \end{frame}
 %#############################SLIDE
 \begin{frame}
 \centering
-	\includegraphics[width=12cm]{G:/Mi unidad/CATEDRA/ANALISIS GEOESPACIAL/fig/eval}
+	\includegraphics[width=12cm]{G:/My Drive/CATEDRA/ANALISIS GEOESPACIAL/fig/eval}
 \end{frame}
 %#############################SLIDE
 \end{document}
